@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c5afb000-5a79-4c75-a35a-964fe78a6a8f">
+  <producedTypes>
+    <objectType typeId="8f6a623c-1b3d-40a1-9622-0474f2c60456" valueTypeId="c276e945-14ff-4c92-aa9d-3025ecfb962c"/>
+    <refType typeId="4e8b786f-55ab-4289-932d-01ce92b89086" valueTypeId="3552d634-11d9-42e5-97cf-f2306acaa26b"/>
+    <selectionType typeId="fce1b906-42ff-4f4e-b688-68219066f945" valueTypeId="836eaff8-c80a-4715-977d-e317b099fe44"/>
+    <listType typeId="725ad176-03f9-4d29-badf-bc51cceb35a8" valueTypeId="91061156-6601-43b0-a6c3-0dd3c5ce5152"/>
+    <managerType typeId="0a520f9d-b8db-43ce-8482-e8b8f451ba60" valueTypeId="07874a31-29b0-4f0b-bf86-fe602fc0bb73"/>
+  </producedTypes>
+  <name>ВКМ_УведомленияБот</name>
+  <synonym>
+    <key>ru</key>
+    <value>Уведомления-бот</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="3f464954-4317-4958-bc46-38e7ea49d804">
+    <name>Текст</name>
+    <synonym>
+      <key>ru</key>
+      <value>Текст</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

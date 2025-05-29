@@ -410,4 +410,11 @@
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
   </tabularSections>
+  <templates uuid="e50ee396-65d1-424e-acc4-b933a507ec24">
+    <name>ПФ_MXL_ВКМ_АктОказанияУслуг</name>
+    <synonym>
+      <key>ru</key>
+      <value>Акт оказания услуг</value>
+    </synonym>
+  </templates>
 </mdclass:Document>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="45baeea5-2f9c-47ae-9ed1-7eb9f408bfca">
+  <producedTypes>
+    <objectType typeId="d7cca2fc-5164-4ddc-bf97-c614faa3fada" valueTypeId="73e6f8e4-8c69-4a4d-9f80-5a39cf6024bd"/>
+    <refType typeId="f85388b5-7fd7-4048-8bb2-ff7496950129" valueTypeId="ed0afa63-6c7d-47f8-a856-8415fd7c640a"/>
+    <selectionType typeId="d7cf4a38-7cb7-4acd-b255-6e7972fc113f" valueTypeId="71ce7f54-41ee-4a53-9f49-cc98f215d3d7"/>
+    <listType typeId="1a9cbe81-43a3-411d-97c8-a61a39642181" valueTypeId="cd6f2791-d741-4b94-9bd5-989e7701645e"/>
+    <managerType typeId="b2734a9c-c0a6-44be-b871-9a2e1abd4d0c" valueTypeId="78eda6f7-5d37-4a1d-906e-7b4393c4edb4"/>
+  </producedTypes>
+  <name>ВКМ_Специалист</name>
+  <synonym>
+    <key>ru</key>
+    <value>Специалист</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ВКМ_Специалист.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.ВКМ_Специалист.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="cc84ec0e-3b24-4bfc-a6af-9b3d0b6e1a76">
+    <name>Фамилия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Фамилия</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>25</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="78f9f811-7270-4693-aa94-814c3ec65386">
+    <name>Имя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>25</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="bc366d4b-b128-48f6-85ad-c25e92045d6d">
+    <name>Отчество</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отчество</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>25</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

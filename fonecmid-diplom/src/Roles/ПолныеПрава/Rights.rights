@@ -4,6 +4,13 @@
 	<setForAttributesByDefault>true</setForAttributesByDefault>
 	<independentRightsOfChildObjects>false</independentRightsOfChildObjects>
 	<object>
+		<name>Document.РеализацияТоваровУслуг</name>
+		<right>
+			<name>InteractiveDelete</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
 		<name>Constant.ПараметрыАдминистрированияИБ</name>
 		<right>
 			<name>Read</name>
@@ -743,6 +750,13 @@
 		</right>
 	</object>
 	<object>
+		<name>Document.ЗаказПокупателя</name>
+		<right>
+			<name>InteractiveDelete</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
 		<name>Catalog.ПредопределенныеВариантыОтчетовРасширений</name>
 		<right>
 			<name>InteractiveDelete</name>
@@ -867,6 +881,13 @@
 		<name>CommonForm.ПараметрыПроксиСервера</name>
 		<right>
 			<name>View</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Document.ПоступлениеТоваровУслуг</name>
+		<right>
+			<name>InteractiveDelete</name>
 			<value>false</value>
 		</right>
 	</object>
@@ -1923,6 +1944,13 @@
 		</right>
 	</object>
 	<object>
+		<name>Document.ОплатаПоставщику</name>
+		<right>
+			<name>InteractiveDelete</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
 		<name>Catalog.ГруппыПользователей</name>
 		<right>
 			<name>InteractiveDelete</name>
@@ -2238,6 +2266,30 @@
 		</right>
 		<right>
 			<name>TechnicalSpecialistMode</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>MainWindowModeNormal</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>MainWindowModeWorkplace</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>MainWindowModeEmbeddedWorkplace</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>MainWindowModeFullscreenWorkplace</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>MainWindowModeKiosk</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>AnalyticsSystemClient</name>
 			<value>false</value>
 		</right>
 		<right>
@@ -2669,6 +2721,13 @@
 		</right>
 	</object>
 	<object>
+		<name>Document.ОплатаОтПокупателя</name>
+		<right>
+			<name>InteractiveDelete</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
 		<name>Catalog.Файлы</name>
 		<right>
 			<name>InteractiveDelete</name>
@@ -2813,6 +2872,13 @@
 		</right>
 		<right>
 			<name>SwitchToDataHistoryVersion</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Document.ВКМ_ОбслуживаниеКлиентов</name>
+		<right>
+			<name>InteractiveDelete</name>
 			<value>false</value>
 		</right>
 	</object>
