@@ -8,7 +8,7 @@
   <includeHelpInContents>true</includeHelpInContents>
   <includeInCommandInterface>true</includeInCommandInterface>
   <content>Catalog.Контрагенты</content>
-  <content>Catalog.ВКМ_Специалист</content>
+  <content>Catalog.ВКМ_Сотрудники</content>
   <content>Catalog.ДоговорыКонтрагентов</content>
   <parentSubsystem>Subsystem.ВКМ_ОбслуживаниеКлиентов</parentSubsystem>
 </mdclass:Subsystem>

@@ -26,6 +26,7 @@
       <types>Number</types>
       <numberQualifiers>
         <precision>5</precision>
+        <scale>2</scale>
         <nonNegative>true</nonNegative>
       </numberQualifiers>
     </type>
@@ -38,6 +39,40 @@
     <synonym>
       <key>ru</key>
       <value>Сумма к оплате</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <resources uuid="8017cf2c-ebe6-4b3f-b121-2ffebb54625a">
+    <name>КоличествоФактЧасов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество факт часов</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>5</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <resources uuid="cc521cac-1fc1-4c59-9b47-491df395e22c">
+    <name>ФактСумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Факт сумма</value>
     </synonym>
     <type>
       <types>Number</types>

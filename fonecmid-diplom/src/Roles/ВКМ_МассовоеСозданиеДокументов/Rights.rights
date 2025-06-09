@@ -587,7 +587,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.ВКМ_Специалист</name>
+		<name>Catalog.ВКМ_Сотрудники</name>
 		<right>
 			<name>Read</name>
 			<value>true</value>
@@ -678,6 +678,17 @@
 		</right>
 		<right>
 			<name>SwitchToDataHistoryVersion</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>Report.ВКМ_АнализВыставленныхАктов</name>
+		<right>
+			<name>Use</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
 			<value>true</value>
 		</right>
 	</object>
