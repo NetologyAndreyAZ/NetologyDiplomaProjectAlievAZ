@@ -8,7 +8,7 @@
   <name>ВКМ_ИндентификаторГруппы</name>
   <synonym>
     <key>ru</key>
-    <value>Индентификатор группы</value>
+    <value>Индентификатор группы для оповещения</value>
   </synonym>
   <type>
     <types>String</types>

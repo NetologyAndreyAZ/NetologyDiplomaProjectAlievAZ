@@ -10,5 +10,6 @@
   <content>Catalog.Контрагенты</content>
   <content>Catalog.ВКМ_Сотрудники</content>
   <content>Catalog.ДоговорыКонтрагентов</content>
+  <content>Catalog.Организации</content>
   <parentSubsystem>Subsystem.ВКМ_ОбслуживаниеКлиентов</parentSubsystem>
 </mdclass:Subsystem>

@@ -12,6 +12,7 @@
           <role>Role.АдминистраторСистемы</role>
         </for>
         <for>
+          <value>true</value>
           <role>Role.ВКМ_ДобавлениеИзменениеДокументовОбслуживанияКлиентов</role>
         </for>
       </visible>
@@ -27,7 +28,24 @@
           <role>Role.АдминистраторСистемы</role>
         </for>
         <for>
+          <value>true</value>
           <role>Role.ВКМ_ДобавлениеИзменениеДокументовОбслуживанияКлиентов</role>
+        </for>
+      </visible>
+    </visibilityFragments>
+    <visibilityFragments>
+      <command>Catalog.Организации.StandardCommand.OpenList</command>
+      <visible>
+        <for>
+          <value>true</value>
+          <role>Role.АдминистраторСистемы</role>
+        </for>
+        <for>
+          <value>true</value>
+          <role>Role.ВКМ_ДобавлениеИзменениеДокументовОбслуживанияКлиентов</role>
+        </for>
+        <for>
+          <role>Role.ВКМ_МассовоеСозданиеДокументов</role>
         </for>
       </visible>
     </visibilityFragments>
@@ -42,6 +60,7 @@
           <role>Role.АдминистраторСистемы</role>
         </for>
         <for>
+          <value>true</value>
           <role>Role.ВКМ_ДобавлениеИзменениеДокументовОбслуживанияКлиентов</role>
         </for>
       </visible>
@@ -85,6 +104,21 @@
         <for>
           <value>true</value>
           <role>Role.АдминистраторСистемы</role>
+        </for>
+        <for>
+          <role>Role.ВКМ_ДобавлениеИзменениеДокументовОбслуживанияКлиентов</role>
+        </for>
+      </visible>
+    </visibilityFragments>
+    <visibilityFragments>
+      <command>Catalog.Организации.StandardCommand.Create</command>
+      <visible>
+        <for>
+          <value>true</value>
+          <role>Role.АдминистраторСистемы</role>
+        </for>
+        <for>
+          <role>Role.ВКМ_МассовоеСозданиеДокументов</role>
         </for>
         <for>
           <role>Role.ВКМ_ДобавлениеИзменениеДокументовОбслуживанияКлиентов</role>

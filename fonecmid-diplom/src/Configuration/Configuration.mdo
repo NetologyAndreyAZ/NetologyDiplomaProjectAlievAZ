@@ -891,7 +891,7 @@
   <commonModules>CommonModule.ФизическиеЛицаКлиентСервер</commonModules>
   <commonModules>CommonModule.ФизическиеЛицаКлиентСерверЛокализация</commonModules>
   <commonModules>CommonModule.ВКМ_ИнтеграцияТелеграм</commonModules>
-  <commonModules>CommonModule.ВКМ_ДлительныеОперации</commonModules>
+  <commonModules>CommonModule.ВКМ_ОбслуживаниеКлиентов</commonModules>
   <exchangePlans>ExchangePlan.ОбновлениеИнформационнойБазы</exchangePlans>
   <xDTOPackages>XDTOPackage.ApdexExport</xDTOPackages>
   <xDTOPackages>XDTOPackage.ApdexExport_1_0_0_2</xDTOPackages>

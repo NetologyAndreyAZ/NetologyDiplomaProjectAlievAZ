@@ -11,18 +11,36 @@
   </synonym>
   <useStandardCommands>true</useStandardCommands>
   <defaultForm>DataProcessor.ВКМ_МассовоеСозданиеАктов.Form.Форма</defaultForm>
-  <attributes uuid="d16b41ea-d686-4ba7-80a5-c9912f1d1ecd">
-    <name>Период</name>
+  <attributes uuid="52e9064d-c8ec-4b29-b951-b8a3d2e8266d">
+    <name>Месяц</name>
     <synonym>
       <key>ru</key>
-      <value>Период</value>
+      <value>Месяц</value>
     </synonym>
     <type>
-      <types>StandardPeriod</types>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
-    <fillChecking>ShowError</fillChecking>
+  </attributes>
+  <attributes uuid="0d3fbc66-a9e7-4ce5-8bc3-3cd40a85ab3e">
+    <name>Год</name>
+    <synonym>
+      <key>ru</key>
+      <value>Год</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>4</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
   </attributes>
   <tabularSections uuid="64101e5d-2646-439a-9698-5e67832821fd">
     <producedTypes>

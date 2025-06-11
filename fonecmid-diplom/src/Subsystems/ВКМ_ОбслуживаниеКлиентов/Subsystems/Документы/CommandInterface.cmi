@@ -2,6 +2,21 @@
 <cmi:CommandInterface xmlns:cmi="http://g5.1c.ru/v8/dt/cmi">
   <commandsVisibility>
     <visibilityFragments>
+      <command>Document.ЗаказПокупателя.StandardCommand.OpenList</command>
+      <visible>
+        <for>
+          <value>true</value>
+          <role>Role.АдминистраторСистемы</role>
+        </for>
+        <for>
+          <role>Role.ВКМ_МассовоеСозданиеДокументов</role>
+        </for>
+        <for>
+          <role>Role.ВКМ_ДобавлениеИзменениеДокументовОбслуживанияКлиентов</role>
+        </for>
+      </visible>
+    </visibilityFragments>
+    <visibilityFragments>
       <command>Document.ВКМ_ОбслуживаниеКлиентов.StandardCommand.OpenList</command>
       <visible>
         <for>
@@ -21,14 +36,30 @@
       <command>Document.РеализацияТоваровУслуг.StandardCommand.OpenList</command>
       <visible>
         <for>
+          <value>true</value>
           <role>Role.ВКМ_МассовоеСозданиеДокументов</role>
-        </for>
-        <for>
-          <role>Role.ВКМ_ДобавлениеИзменениеДокументовОбслуживанияКлиентов</role>
         </for>
         <for>
           <value>true</value>
           <role>Role.АдминистраторСистемы</role>
+        </for>
+        <for>
+          <role>Role.ВКМ_ДобавлениеИзменениеДокументовОбслуживанияКлиентов</role>
+        </for>
+      </visible>
+    </visibilityFragments>
+    <visibilityFragments>
+      <command>Document.ЗаказПокупателя.StandardCommand.Create</command>
+      <visible>
+        <for>
+          <value>true</value>
+          <role>Role.АдминистраторСистемы</role>
+        </for>
+        <for>
+          <role>Role.ВКМ_МассовоеСозданиеДокументов</role>
+        </for>
+        <for>
+          <role>Role.ВКМ_ДобавлениеИзменениеДокументовОбслуживанияКлиентов</role>
         </for>
       </visible>
     </visibilityFragments>
@@ -43,7 +74,6 @@
           <role>Role.ВКМ_МассовоеСозданиеДокументов</role>
         </for>
         <for>
-          <value>true</value>
           <role>Role.ВКМ_ДобавлениеИзменениеДокументовОбслуживанияКлиентов</role>
         </for>
       </visible>
@@ -52,14 +82,14 @@
       <command>Document.РеализацияТоваровУслуг.StandardCommand.Create</command>
       <visible>
         <for>
-          <role>Role.ВКМ_МассовоеСозданиеДокументов</role>
-        </for>
-        <for>
           <role>Role.ВКМ_ДобавлениеИзменениеДокументовОбслуживанияКлиентов</role>
         </for>
         <for>
           <value>true</value>
           <role>Role.АдминистраторСистемы</role>
+        </for>
+        <for>
+          <role>Role.ВКМ_МассовоеСозданиеДокументов</role>
         </for>
       </visible>
     </visibilityFragments>
