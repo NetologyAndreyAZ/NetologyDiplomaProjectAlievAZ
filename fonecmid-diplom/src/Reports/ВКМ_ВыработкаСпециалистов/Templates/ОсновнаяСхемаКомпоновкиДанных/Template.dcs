@@ -7,20 +7,26 @@
 	<dataSet xsi:type="DataSetQuery">
 		<name>НаборДанных1</name>
 		<field xsi:type="DataSetFieldField">
-			<dataPath>Период</dataPath>
-			<field>Период</field>
-			<role>
-				<dcscom:periodNumber>1</dcscom:periodNumber>
-				<dcscom:periodType>Main</dcscom:periodType>
-			</role>
-		</field>
-		<field xsi:type="DataSetFieldField">
 			<dataPath>Сотрудник</dataPath>
 			<field>Сотрудник</field>
 		</field>
 		<field xsi:type="DataSetFieldField">
 			<dataPath>СуммаКОплате</dataPath>
 			<field>СуммаКОплате</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сумма к оплате</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Период</dataPath>
+			<field>Период</field>
+			<role>
+				<dcscom:periodNumber>1</dcscom:periodNumber>
+				<dcscom:periodType>Main</dcscom:periodType>
+			</role>
 		</field>
 		<dataSource>ИсточникДанных1</dataSource>
 		<query>ВЫБРАТЬ
@@ -31,12 +37,28 @@
 	РегистрНакопления.ВКМ_ВыполненныеСотрудникомРаботы КАК ВКМ_ВыполненныеСотрудникомРаботы
 ГДЕ
 	ВКМ_ВыполненныеСотрудникомРаботы.Период МЕЖДУ &amp;ДатаНачала И &amp;ДатаОкончания
-	И ВКМ_ВыполненныеСотрудникомРаботы.Сотрудник = &amp;Сотрудник</query>
+	И (ВКМ_ВыполненныеСотрудникомРаботы.Сотрудник = &amp;Сотрудник
+			ИЛИ &amp;Сотрудник = ЗНАЧЕНИЕ(Справочник.ВКМ_Сотрудники.ПустаяСсылка))</query>
 	</dataSet>
 	<totalField>
 		<dataPath>СуммаКОплате</dataPath>
 		<expression>Сумма(СуммаКОплате)</expression>
 	</totalField>
+	<parameter>
+		<name>Сотрудник</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Сотрудник</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type xmlns:d4p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d4p1:CatalogRef.ВКМ_Сотрудники</v8:Type>
+		</valueType>
+		<value xsi:nil="true"/>
+		<useRestriction>false</useRestriction>
+		<use>Always</use>
+	</parameter>
 	<parameter>
 		<name>ДатаНачала</name>
 		<title xsi:type="v8:LocalStringType">
@@ -74,20 +96,6 @@
 		<expression>&amp;Период.ДатаОкончания</expression>
 	</parameter>
 	<parameter>
-		<name>Сотрудник</name>
-		<title xsi:type="v8:LocalStringType">
-			<v8:item>
-				<v8:lang>ru</v8:lang>
-				<v8:content>Сотрудник</v8:content>
-			</v8:item>
-		</title>
-		<valueType>
-			<v8:Type xmlns:d4p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d4p1:CatalogRef.ВКМ_Сотрудники</v8:Type>
-		</valueType>
-		<value xsi:nil="true"/>
-		<useRestriction>false</useRestriction>
-	</parameter>
-	<parameter>
 		<name>Период</name>
 		<title xsi:type="v8:LocalStringType">
 			<v8:item>
@@ -116,28 +124,13 @@
 				<dcsset:item xsi:type="dcsset:SelectedItemField">
 					<dcsset:field>СуммаКОплате</dcsset:field>
 				</dcsset:item>
-				<dcsset:item xsi:type="dcsset:SelectedItemField">
-					<dcsset:field>ЧасовКОплате</dcsset:field>
-				</dcsset:item>
 			</dcsset:selection>
 			<dcsset:dataParameters>
 				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
 					<dcscor:use>false</dcscor:use>
-					<dcscor:parameter>ДатаНачала</dcscor:parameter>
-					<dcscor:value xsi:type="xs:dateTime">0001-01-01T00:00:00</dcscor:value>
-					<dcsset:userSettingID>517eafb5-9ca6-4ade-b7d0-e4a96e8d09ac</dcsset:userSettingID>
-				</dcscor:item>
-				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
-					<dcscor:use>false</dcscor:use>
 					<dcscor:parameter>Сотрудник</dcscor:parameter>
 					<dcscor:value xsi:nil="true"/>
-					<dcsset:userSettingID>82bdf514-3547-43ce-adb9-b22cae4ba91a</dcsset:userSettingID>
-					<dcsset:userSettingPresentation xsi:type="v8:LocalStringType">
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Сотрудник</v8:content>
-						</v8:item>
-					</dcsset:userSettingPresentation>
+					<dcsset:userSettingID>ca3da436-9bbc-4b23-81a2-4a7c097e98f2</dcsset:userSettingID>
 				</dcscor:item>
 				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
 					<dcscor:use>false</dcscor:use>
@@ -147,7 +140,7 @@
 						<v8:startDate>0001-01-01T00:00:00</v8:startDate>
 						<v8:endDate>0001-01-01T00:00:00</v8:endDate>
 					</dcscor:value>
-					<dcsset:userSettingID>85e93715-12a0-463d-82f0-212d56a57c09</dcsset:userSettingID>
+					<dcsset:userSettingID>e2e4227f-ed07-4626-9ee9-d56c6f27231f</dcsset:userSettingID>
 				</dcscor:item>
 			</dcsset:dataParameters>
 			<dcsset:conditionalAppearance>

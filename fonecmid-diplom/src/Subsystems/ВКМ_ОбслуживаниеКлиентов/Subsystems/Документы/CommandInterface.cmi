@@ -12,6 +12,7 @@
           <role>Role.ВКМ_МассовоеСозданиеДокументов</role>
         </for>
         <for>
+          <value>true</value>
           <role>Role.ВКМ_ДобавлениеИзменениеДокументовОбслуживанияКлиентов</role>
         </for>
       </visible>
@@ -44,6 +45,7 @@
           <role>Role.АдминистраторСистемы</role>
         </for>
         <for>
+          <value>true</value>
           <role>Role.ВКМ_ДобавлениеИзменениеДокументовОбслуживанияКлиентов</role>
         </for>
       </visible>
