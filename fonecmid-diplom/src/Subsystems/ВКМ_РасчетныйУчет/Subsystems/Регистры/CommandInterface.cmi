@@ -2,11 +2,28 @@
 <cmi:CommandInterface xmlns:cmi="http://g5.1c.ru/v8/dt/cmi">
   <commandsVisibility>
     <visibilityFragments>
+      <command>InformationRegister.ВКМ_ГрафикЗапланированныхОтпусков.StandardCommand.OpenList</command>
+      <visible>
+        <for>
+          <value>true</value>
+          <role>Role.АдминистраторСистемы</role>
+        </for>
+        <for>
+          <value>true</value>
+          <role>Role.ВКМ_ДобавлениеИзменениеДокументовНачислениеЗаработнойПлаты</role>
+        </for>
+      </visible>
+    </visibilityFragments>
+    <visibilityFragments>
       <command>InformationRegister.ВКМ_ГрафикиРаботы.StandardCommand.OpenList</command>
       <visible>
         <for>
           <value>true</value>
           <role>Role.АдминистраторСистемы</role>
+        </for>
+        <for>
+          <value>true</value>
+          <role>Role.ВКМ_ДобавлениеИзменениеДокументовНачислениеЗаработнойПлаты</role>
         </for>
       </visible>
     </visibilityFragments>
@@ -17,6 +34,10 @@
           <value>true</value>
           <role>Role.АдминистраторСистемы</role>
         </for>
+        <for>
+          <value>true</value>
+          <role>Role.ВКМ_ДобавлениеИзменениеДокументовНачислениеЗаработнойПлаты</role>
+        </for>
       </visible>
     </visibilityFragments>
     <visibilityFragments>
@@ -25,6 +46,10 @@
         <for>
           <value>true</value>
           <role>Role.АдминистраторСистемы</role>
+        </for>
+        <for>
+          <value>true</value>
+          <role>Role.ВКМ_ДобавлениеИзменениеДокументовНачислениеЗаработнойПлаты</role>
         </for>
       </visible>
     </visibilityFragments>
@@ -35,6 +60,10 @@
           <value>true</value>
           <role>Role.АдминистраторСистемы</role>
         </for>
+        <for>
+          <value>true</value>
+          <role>Role.ВКМ_ДобавлениеИзменениеДокументовНачислениеЗаработнойПлаты</role>
+        </for>
       </visible>
     </visibilityFragments>
     <visibilityFragments>
@@ -44,6 +73,21 @@
           <value>true</value>
           <role>Role.АдминистраторСистемы</role>
         </for>
+        <for>
+          <value>true</value>
+          <role>Role.ВКМ_ДобавлениеИзменениеДокументовНачислениеЗаработнойПлаты</role>
+        </for>
+      </visible>
+    </visibilityFragments>
+    <visibilityFragments>
+      <command>InformationRegister.ВКМ_ГрафикЗапланированныхОтпусков.StandardCommand.Create</command>
+      <visible>
+        <for>
+          <role>Role.АдминистраторСистемы</role>
+        </for>
+        <for>
+          <role>Role.ВКМ_ДобавлениеИзменениеДокументовНачислениеЗаработнойПлаты</role>
+        </for>
       </visible>
     </visibilityFragments>
     <visibilityFragments>
@@ -52,6 +96,9 @@
         <for>
           <role>Role.АдминистраторСистемы</role>
         </for>
+        <for>
+          <role>Role.ВКМ_ДобавлениеИзменениеДокументовНачислениеЗаработнойПлаты</role>
+        </for>
       </visible>
     </visibilityFragments>
     <visibilityFragments>
@@ -59,6 +106,9 @@
       <visible>
         <for>
           <role>Role.АдминистраторСистемы</role>
+        </for>
+        <for>
+          <role>Role.ВКМ_ДобавлениеИзменениеДокументовНачислениеЗаработнойПлаты</role>
         </for>
       </visible>
     </visibilityFragments>

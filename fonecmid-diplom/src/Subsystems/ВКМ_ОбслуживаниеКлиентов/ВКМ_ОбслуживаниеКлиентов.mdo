@@ -23,6 +23,7 @@
   <content>AccumulationRegister.ВКМ_ВыполненныеСотрудникомРаботы</content>
   <content>Report.ВКМ_ВыработкаСпециалистов</content>
   <content>Report.ВКМ_АнализВыставленныхАктов</content>
+  <content>DataProcessor.ВКМ_КалендарьСпециалиста</content>
   <subsystems>Справочники</subsystems>
   <subsystems>Документы</subsystems>
 </mdclass:Subsystem>

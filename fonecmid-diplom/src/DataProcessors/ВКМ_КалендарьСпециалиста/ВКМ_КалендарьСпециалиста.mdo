@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4f272caf-c70d-4bb9-9680-1a7a4a773443">
+  <producedTypes>
+    <objectType typeId="c6f16943-05ea-4cce-9d45-bb0d47e49801" valueTypeId="9b3d8caf-4a01-4f3b-8890-f34a85d30fdf"/>
+    <managerType typeId="6f3a4f25-b264-45da-936a-09c11f8232e1" valueTypeId="8b861f3b-d46e-4b06-9c88-0857bff6384c"/>
+  </producedTypes>
+  <name>ВКМ_КалендарьСпециалиста</name>
+  <synonym>
+    <key>ru</key>
+    <value>Календарь специалиста</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ВКМ_КалендарьСпециалиста.Form.Форма</defaultForm>
+  <forms uuid="95c98792-01fd-49f0-b316-9212bc600d5f">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

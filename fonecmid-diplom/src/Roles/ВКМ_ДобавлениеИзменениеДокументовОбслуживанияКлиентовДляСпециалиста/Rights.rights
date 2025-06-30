@@ -10823,6 +10823,30 @@
 			<value>false</value>
 		</right>
 		<right>
+			<name>MainWindowModeNormal</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>MainWindowModeWorkplace</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>MainWindowModeEmbeddedWorkplace</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>MainWindowModeFullscreenWorkplace</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>MainWindowModeKiosk</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>AnalyticsSystemClient</name>
+			<value>false</value>
+		</right>
+		<right>
 			<name>ExclusiveModeTerminationAtSessionStart</name>
 			<value>false</value>
 		</right>

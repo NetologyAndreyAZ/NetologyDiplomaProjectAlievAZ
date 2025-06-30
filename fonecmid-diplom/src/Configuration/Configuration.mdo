@@ -627,12 +627,13 @@
   <roles>Role.ЧтениеДополнительныхСведений</roles>
   <roles>Role.ЧтениеНСИ</roles>
   <roles>Role.ЧтениеУчетныхЗаписейЭлектроннойПочты</roles>
-  <roles>Role.ВКМ_ДобавлениеИзменениеДокументовОбслуживанияКлиентов</roles>
+  <roles>Role.ВКМ_ДобавлениеИзменениеДокументовОбслуживанияКлиентовДляСпециалиста</roles>
   <roles>Role.ВКМ_МассовоеСозданиеДокументов</roles>
   <roles>Role.ВКМ_ДобавлениеИзменениеДокументовНачислениеЗаработнойПлаты</roles>
   <roles>Role.ВКМ_ДобавлениеИзменнениеДокументовНачислениеФиксированныхПремий</roles>
   <roles>Role.ВКМ_ДобавлениеИзменениеДокументовВыплатаЗарплаты</roles>
   <roles>Role.ВКМ_ДобавлениеИзменениеДокументовГрафикОтпусков</roles>
+  <roles>Role.ВКМ_ДобавлениеИзменениеДокументовОбслуживанияКлиентовДляМенеджера</roles>
   <commonTemplates>CommonTemplate.ДанныеПечатиОбщиеРеквизиты</commonTemplates>
   <commonTemplates>CommonTemplate.ДанныеПечатиРегистрСимволов</commonTemplates>
   <commonTemplates>CommonTemplate.ИнструкцияКакВыполнитьНастройкуМакетаOfficeOpen</commonTemplates>
@@ -1337,6 +1338,7 @@
   <dataProcessors>DataProcessor.УправлениеИтогамиИАгрегатами</dataProcessors>
   <dataProcessors>DataProcessor.ВКМ_МассовоеСозданиеАктов</dataProcessors>
   <dataProcessors>DataProcessor.ВКМ_ЗаполнениеГрафика</dataProcessors>
+  <dataProcessors>DataProcessor.ВКМ_КалендарьСпециалиста</dataProcessors>
   <informationRegisters>InformationRegister.БезопасноеХранилищеДанных</informationRegisters>
   <informationRegisters>InformationRegister.БезопасноеХранилищеДанныхОбластейДанных</informationRegisters>
   <informationRegisters>InformationRegister.ВерсииПодсистем</informationRegisters>

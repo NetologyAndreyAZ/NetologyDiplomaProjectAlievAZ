@@ -11,6 +11,10 @@
   </synonym>
   <useStandardCommands>true</useStandardCommands>
   <mainDataCompositionSchema>Report.ВКМ_ВыработкаСпециалистов.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <extendedPresentation>
+    <key>ru</key>
+    <value>Выработка специалистов</value>
+  </extendedPresentation>
   <templates uuid="c53f9538-45da-4757-8e76-2a8f9b3422d0">
     <name>ОсновнаяСхемаКомпоновкиДанных</name>
     <synonym>
